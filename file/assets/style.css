@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet');
+
+nav a {
+    font-size: 12px;
+}
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    font-weight: bold;
+}
+body {
+   color: #000000;
+   font: normal normal 15px Lustria;
+       font-style: normal;
+       font-weight: normal;
+       line-height: normal;
+   text-transform: none;
+   line-height: 24px;
+   letter-spacing: 0px;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ h2 {
+    color: #000000
+ }
+ 
+ h3 {
+    color: #000000
+ }
+ 
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #000000
+ }
+ .profile header {
+    text-align: center;
+ }
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #black;
+    text-align: center;
+    font-weight: bold;
+ }
+ .featured-image {
+    width:  100%;
+    max-height: 400px;
+    object-fit: none;
+    object-position: center;
+ }
+ .image {
+   width:  100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+ }
+ .profile img { 
+    width: 200px;
+ }
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+ .jumbotron {
+   font-size: 25px;
+   padding: 25px;
+   background-color: #ffffff;
+   text-align: center;
+   color: rgb(85, 83, 83) ;
+}
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+ nav {
+    background-color:#000000;
+    padding: 3px;
+    position: sticky;
+    top: 0;
+ }
+ body {
+    font-family: 'Lustria', serif;
+    margin: 0;
+    padding: 0;
+ }
+ main {
+    padding: 20px;
+ }
+ #content {
+    float: left;
+    width: 75%;
+ }
+ aside {
+    float: right;
+    width: 25%;
+ }
+ main {
+    padding: 20px;
+    overflow: auto;
+ }
+ aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+ }
+ * {
+    box-sizing: border-box;
+ }
+ @media screen and (max-width: 1000px) {
+    #content,
+    aside {
+     width:100%;
+     padding: 0;
+    }
+ }
+ header {
+    display: inline;
+ }
+ .image-XZ { 
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+ }
