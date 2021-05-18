@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textme {
+    border: 2px solid rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5rem 10rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h1:hover {
+    color: rgb(0, 0, 0);
+}
+
+.textme p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+/*pembungkus dalam fd */
+
+.fd {
+    display: inline-flex;
+    letter-spacing: 5px;
+}
+/*modal*/
+
+  .wrap {
+    padding: 40px;
+    text-align: center;
+  }
+  .btn {
+    background: #000000;
+    border: #000000 solid 1px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-align: center;
+    min-width: 60px;
+    position: relative;
+    transition: color 0.1s ease;
+    /* top: 40em;*/
+  }
+  .btn.btn-big {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+    border-radius: 20px;
+
+  }
+  
+/*MODAL KEDUA FUNGSI NYA SAMA KEK MODAL SATU*/
+
+
+.wrap2 {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .btn.btn-big2 {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+    border-radius: 20px;
+  }
